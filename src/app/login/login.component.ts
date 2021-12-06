@@ -4,7 +4,11 @@ import { LoginService } from '../services/login/login.service';
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
+<<<<<<< HEAD
   styleUrls: ['./login.component.css']
+=======
+  styleUrls: ['./login.component.scss']
+>>>>>>> dbec1ef8b8cf2960a300b6b7ae6857a871791f9f
 })
 export class LoginComponent implements OnInit {
   username: string = '';
@@ -48,4 +52,8 @@ export class LoginComponent implements OnInit {
         .login(this.username, this.password);
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> dbec1ef8b8cf2960a300b6b7ae6857a871791f9f

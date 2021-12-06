@@ -9,7 +9,11 @@
       <a mat-list-item href="#">Search</a>
       <a mat-list-item href="#">Support</a>
       <a mat-list-item href="#">Rent</a>
+<<<<<<< HEAD
       <a mat-list-item href="#">Sign-up/Login</a>
+=======
+      <a mat-list-item routerLink='/login'>Sign-up/Login</a>
+>>>>>>> dbec1ef8b8cf2960a300b6b7ae6857a871791f9f
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -30,11 +34,17 @@
         <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
       </button>
       <span>Movie Rental</span>
+<<<<<<< HEAD
       <span style="flex:auto"></span>
       <mat-slide-toggle [(ngModel)] = "isDarkTheme" labelPosition = "before" (change) = "storeThemeSelection()">
         <mat-icon>bedtime</mat-icon>
       </mat-slide-toggle>
+=======
+
+>>>>>>> dbec1ef8b8cf2960a300b6b7ae6857a871791f9f
     </mat-toolbar>
+    
     <router-outlet></router-outlet>
   </mat-sidenav-content>
 </mat-sidenav-container>
+

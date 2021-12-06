@@ -41,4 +41,8 @@ export class LoginService {
       return false;
     }
   }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> dbec1ef8b8cf2960a300b6b7ae6857a871791f9f

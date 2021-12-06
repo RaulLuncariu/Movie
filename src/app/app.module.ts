@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+<<<<<<< HEAD
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+=======
+import { HttpClientModule } from '@angular/common/http';
+>>>>>>> dbec1ef8b8cf2960a300b6b7ae6857a871791f9f
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -15,6 +19,8 @@ import { HomeComponent } from './home/home.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { LoginComponent } from './login/login.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
@@ -57,7 +63,11 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     NavComponent,
     HomeComponent,
     LoginComponent,
+<<<<<<< HEAD
     DashboardComponent,
+=======
+    DashboardComponent
+>>>>>>> dbec1ef8b8cf2960a300b6b7ae6857a871791f9f
   ],
   imports: [
     BrowserModule,
@@ -73,6 +83,7 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatGridListModule,
     MatCardModule,
     MatMenuModule,
+<<<<<<< HEAD
     MatProgressSpinnerModule,
     MatOptionModule,
     MatSelectModule,
@@ -105,6 +116,9 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatDatepickerModule,
     MatTooltipModule
 
+=======
+    HttpClientModule
+>>>>>>> dbec1ef8b8cf2960a300b6b7ae6857a871791f9f
   ],
   providers: [],
   bootstrap: [AppComponent]
