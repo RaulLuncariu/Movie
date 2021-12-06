@@ -1,0 +1,16 @@
+login-container {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    position: relative;
+  }
+    .notification {
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }

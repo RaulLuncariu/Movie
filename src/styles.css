@@ -29,6 +29,9 @@
 body {
   background: var(--background-default);
 }
+h1{
+  text-align: center;
+}
 
 html,
 body {

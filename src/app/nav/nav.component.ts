@@ -10,6 +10,8 @@ import { ThemeService } from "src/app/theme/theme.service";
 })
 export class NavComponent {
 
+  isDarkTheme:boolean = false;
+
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
       map(result => result.matches),
@@ -17,5 +19,13 @@ export class NavComponent {
     );
 
   constructor(private breakpointObserver: BreakpointObserver) {}
+
+  ngOnInit(){
+    this.isDarkTheme = localStorage.getItem('theme') === "Dark" ? true:false;
+  }
+
+  storeThemeSelection(){
+    localStorage.setItem('theme',this.isDarkTheme?"Dark":"Light");
+  }
 
 }
